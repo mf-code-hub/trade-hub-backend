@@ -1,3 +1,3 @@
 export * from './entity'
-export * from './email'
+export * from './Merchant'
 export * from './password'
