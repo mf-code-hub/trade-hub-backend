@@ -7,7 +7,7 @@ export default class Merchant {
   readonly isAvailable: boolean;
   readonly availabilityPeriod: string[];
   
-  constructor(
+    constructor(
     name: string,
     logo: string,
     category: string,
