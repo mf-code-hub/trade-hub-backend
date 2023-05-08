@@ -1,22 +1,21 @@
 export default class Merchant {
   readonly name: string;
-  readonly logo: any; 
+  readonly logo: any;
   readonly category: string;
   readonly subcategory: string;
   readonly description: string;
   readonly isAvailable: boolean;
   readonly availabilityPeriod: string[];
-  
-    constructor(
+
+  constructor(
     name: string,
     logo: string,
     category: string,
     subcategory: string,
     description: string,
     isAvailable: boolean,
-    availabilityPeriod: string[]
-    
-    ){
+    availabilityPeriod: string[],
+  ) {
     this.name = name;
     this.logo = logo;
     this.category = category;
@@ -24,6 +23,5 @@ export default class Merchant {
     this.description = description;
     this.isAvailable = isAvailable;
     this.availabilityPeriod = availabilityPeriod;
-
   }
 }
