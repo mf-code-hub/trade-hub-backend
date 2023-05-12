@@ -15,7 +15,7 @@ export class MerchantService {
   }
 
   async createMerchant(merchant: MerchantDTO): Promise<Merchant> {
-    console.log(merchant)
+    console.log(merchant);
     const result = await new this.merchantModel(merchant).save();
     return result;
   }
