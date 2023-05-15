@@ -19,9 +19,8 @@ export class MerchantDTO {
   // @IsNotEmpty()
   // description: string;
 
-  // @IsBoolean()
   // @IsNotEmpty()
-  // isAvailable: string;
+  // lastActiveDate: Date;
 
   // @IsBoolean()
   // @IsNotEmpty()
